@@ -6,15 +6,15 @@ class SecondsTo
   end
 
   def seconds_to_minutes
-    "There are approximately #{(@seconds / 60.0).to_i} minutes is #{@seconds} seconds"
+    "There are approximately #{(@seconds / 60.0).to_i} minutes in #{@seconds} seconds"
   end
 
   def seconds_to_hours
-    "There are approximately #{(@seconds / 3600.0).to_i} hours is #{@seconds} seconds"
+    "There are approximately #{(@seconds / 3600.0).to_i} hours in #{@seconds} seconds"
   end
 
   def seconds_to_days
-    "There are approximately #{(@seconds / 86400.0).to_i} days is #{@seconds} seconds"
+    "There are approximately #{(@seconds / 86400.0).to_i} days in #{@seconds} seconds"
   end
 
   def seconds=(new_value)
