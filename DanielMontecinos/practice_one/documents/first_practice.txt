@@ -1,0 +1,52 @@
+********************************************** HOMEWORK ****************************************************
+************************************************************************************************************
+
+---------------------------------------------- WHAT IS RUBY ------------------------------------------------
+Ruby is a scripting, dynamic and open source programming language developed by Yukihiro Matsumoto 
+(�Matz� for short) and released to the public in 1995. The core principles of Ruby are flexibility and ease 
+to use.
+------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------- PROS/CONS ---------------------------------------------------
+Pros:
+	=> Easier of learn.
+	=> The programming tasks are accomplished in fewer lines of code.
+	=> Its syntax is so elegant that is natural to read and write.
+	=> It�s not a strong typed programming language.
+	=> Total object-oriented.
+Cons:
+	=> You must be careful with the variable�s values using along with the program, 
+	Ruby will not complain if the variable�s type change while the program run, if you don�t have control 
+	of this, the results obtained could be inconsistent.
+	=> It�s not easy to find good documentation to learn the language from scratch.
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------- TESTING TIERS --------------------------------------------------
+
+			            ______------------------------------------> MANUAL TESTING
+                       /\     \
+                      /  \     \
+                     /    \_____\
+                    _\    / ____/_--------------------------------> UI
+                   /\ \  / /\     \
+                  /  \ \/_/  \     \
+                 /    \__/    \_____\
+                _\    /  \    / ____/_
+               /\ \  /    \  / /\     \
+              /  \ \/_____/\/_/  \     \
+             /    \_____\    /    \_____\
+            _\    /     /    \    / ____/_ ------------------------> SERVICES
+           /\ \  /     /      \  / /\     \
+          /  \ \/_____/        \/_/  \     \
+         /    \_____\            /    \_____\
+        _\    /     /            \    / ____/_
+       /\ \  /     /              \  / /\     \
+      /  \ \/_____/                \/_/  \     \ 
+     /    \_____\                    /    \_____\ ------------------> UNIT
+    _\    /     /_  ______  ______  _\____/ ____/_
+   /\ \  /     /  \/\     \/\     \/\     \/\     \
+  /  \ \/_____/    \ \     \ \     \ \     \ \     \
+ /    \_____\ \_____\ \_____\ \_____\ \_____\ \_____\
+ \    /     / /     / /     / /     / /     / /     /
+  \  /     / /     / /     / /     / /     / /     /
+   \/_____/\/_____/\/_____/\/_____/\/_____/\/_____/
