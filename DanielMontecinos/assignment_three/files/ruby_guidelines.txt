@@ -1,0 +1,31 @@
+
+**************************** Practice Six *********************************
+Define which code guideline you would suggest for:
+
+- Format (int, float, string)
+	- I'd suggest use this one: format(format string, *args), it's elegant and easy to understand.
+
+- Classes
+	- I'd like to use classes for all scripts we make, even if they are small, using classes is always a good way  to encapsulate things in order to have a better control about variables, stuff showed and changed by the user or maybe for another script too.
+	- The name of the class always in uppercase.
+	- Use the attr_accessor for an instance only when we sure the user needs to perform both operations on it.
+	- Always try to validate the data passed to an instance through methods and not by the constructor.
+	- As far as possible, use the getter/setter shortcuts.
+
+- Methods
+	- Use method parenthesis only when they receive arguments.
+	- If the method produces some boolean result, it should have a question mark at the end of its name.
+	- The method's name always written in lowercase and separated by underscores.
+	- Don't use the explicit return keyword if the method performs one specific operation.
+	- Try to avoid use the multiple return statement, it could be useful, but it breaks the single responsibility principle, and programming without following the OOP's principles is not a good idea.
+	- Make all methods static (self.method) when we're sure the class does not need to change its behavior.
+
+- Variables
+	- Write the variable names always in snake_case.
+	- Always use descriptive names for variables.
+	- Don't create variable unless it is necessary.
+
+- If condition
+	- As far as possible, try to use the if expresion after the result.
+	- Use 'unless' when expect a false condition instead of a negate condition with if.
+	- AS far as possible, avoid 'if then else' statement, is always better replace it with a short-if expression.
