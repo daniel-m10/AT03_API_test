@@ -1,0 +1,5 @@
+----------------------------------- DIFFERENCES -------------------------------------
+1.- When we use a class without apply the Singleton design pattern, every time an object is instantiated the values
+of their instance variables are initialized again.
+2.- An object instantiated in a class without Singleton pattern, always have a different object id.
+3.- In a class that applies the Singleton design pattern, its initialize method is only called once.

@@ -1,0 +1,6 @@
+--------------------------------- EXERCISE QUESTION ----------------------------------
+1.- Should be better to use singleton for this implementation? Why?
+
+ The best for this exercise is apply the Singleton Design pattern, because all the information about the items in the
+ Online Shopping page must be the same for each user who wants to buy an item, if the Singleton pattern wouldn't applied,
+ the information about the items will be inconsistently.
