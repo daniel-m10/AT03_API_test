@@ -1,0 +1,208 @@
+2
+1
+daniel01
+2
+daniel02
+2
+YES
+c
+1000
+1.0
+
+NO
+["daniel02"]
+1
+1
+danilo
+1
+YES
+c
+1000
+1.0
+
+[]
+1
+3
+1
+daniel01
+2
+daniel
+3
+dani
+3
+NO
+NO
+NO
+["daniel01", "daniel", "dani"]
+How many users will be registered?: 1
+How many users will be registered?: 3
+Enter user id: 1
+Enter user name: d1
+Enter user id: 2
+Enter user name: d2
+Enter user id: 3
+Enter user name: d3
+There are 3user/s registered!.
+User d1, do you want to perform a calculation?(YES/NO): NO
+Goodbye d1!!User d2, do you want to perform a calculation?(YES/NO): NO
+Goodbye d2!!User d3, do you want to perform a calculation?(YES/NO): YES
+Select one option please(a/b/c): c
+Introduce the number in meters: 1000
+1000 meters represent 1.0Km.
+Result: 
+The following users didn't perform a calculation: ["d1", "d2"]
+How many users will be registered?: 3
+Enter user id: 01
+Enter user name: test1
+Enter user id: 02
+Enter user name: test
+Enter user id: 03
+Enter user name: test3
+There are 3user/s registered!.
+User test1, do you want to perform a calculation?(YES/NO): NO
+Goodbye test1!!
+User test, do you want to perform a calculation?(YES/NO): YESY
+Goodbye test!!
+User test3, do you want to perform a calculation?(YES/NO): YES
+Select one option please(a/b/c): a
+Introduce the number in millimeters: 10
+10 millimeters represent 1.0cm.
+Result: 
+The following users didn't perform a calculation: ["test1", "test"]
+-------2017-07-18 20:00:57 -0400
+-------How many users will be registered?: 3
+Enter user id: 01
+Enter user name: tst1
+Enter user id: 02
+Enter user name: tst2
+Enter user id: 03
+Enter user name: tst3
+There are 3user/s registered!.
+User tst1, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst1!!
+User tst2, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst2!!
+User tst3, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst3!!
+The following users didn't perform a calculation: ["tst1", "tst2", "tst3"]
+------------------------------------------------------------------------------------------------------------------------2017-07-18 20:03:44 -0400
+--------------------------------------------------------------------------------How many users will be registered?: 3
+Enter user id: 01
+Enter user name: tst01
+Enter user id: 02
+Enter user name: tst02
+Enter user id: 03
+Enter user name: tst03
+There are 3user/s registered!.
+User tst01, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst01!!
+User tst02, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst02!!
+User tst03, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst03!!
+The following users didn't perform a calculation: ["tst01", "tst02", "tst03"]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2017-07-18 20:04:45 -0400
+--------------------------------------------------------------------------------
+How many users will be registered?: 3
+Enter user id: 01
+Enter user name: tst
+Enter user id: 02
+Enter user name: tst
+Enter user id: 03
+Enter user name: tst
+There are 3user/s registered!.
+User tst, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst!!
+User tst, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst!!
+User tst, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst!!
+The following users didn't perform a calculation: ["tst", "tst", "tst"]
+------------------------------------------------------------------------------------------------------------------------
+2017-07-18 20:06:06 -0400
+--------------------------------------------------------------------------------
+How many users will be registered?: 3
+Enter user id: 01
+Enter user name: tst01
+Enter user id: 02
+Enter user name: tst02
+Enter user id: 03
+Enter user name: tst03
+There are 3user/s registered!.
+User tst01, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst01!!
+User tst02, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst02!!
+User tst03, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst03!!
+The following users didn't perform a calculation: ["tst01", "tst02", "tst03"]
+--------------------------------------------------------------------------------2017-07-18 20:06:57 -0400
+----------------------------------------
+How many users will be registered?: 3
+Enter user id: 01
+Enter user name: tst01
+Enter user id: 02
+Enter user name: tst02
+Enter user id: 03
+Enter user name: tst03
+There are 3user/s registered!.
+User tst01, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst01!!
+User tst02, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst02!!
+User tst03, do you want to perform a calculation?(YES/NO): NO
+Goodbye tst03!!
+The following users didn't perform a calculation: ["tst01", "tst02", "tst03"]
+--------------------------------------------------------------------------------
+2017-07-18 20:07:41 -0400
+--------------------------------------------------------------------------------
+How many users will be registered?: 3
+Enter user id: 01
+Enter user name: last01
+Enter user id: 02
+Enter user name: last02
+Enter user id: 03
+Enter user name: last03
+There are 3user/s registered!.
+User last01, do you want to perform a calculation?(YES/NO): NO
+Goodbye last01!!
+User last02, do you want to perform a calculation?(YES/NO): NO
+Goodbye last02!!
+User last03, do you want to perform a calculation?(YES/NO): NO
+Goodbye last03!!
+The following users didn't perform a calculation: ["last01", "last02", "last03"]
+------------------------------------------------------------------------------------------------------------------------
+Project execution began at: 2017-07-18 20:12:14 -0400
+--------------------------------------------------------------------------------
+2017-07-18 20:12:16 -0400: 
+How many users will be registered?: 3
+2017-07-18 20:12:18 -0400: 
+Enter user id: 01
+2017-07-18 20:12:21 -0400: 
+Enter user name: laaast01
+2017-07-18 20:12:22 -0400: 
+Enter user id: 02
+2017-07-18 20:12:25 -0400: 
+Enter user name: laaaast02
+2017-07-18 20:12:26 -0400: 
+Enter user id: 03
+2017-07-18 20:12:29 -0400: 
+Enter user name: laaaast03
+2017-07-18 20:12:29 -0400: 
+There are 3user/s registered!.
+2017-07-18 20:12:30 -0400: 
+User laaast01, do you want to perform a calculation?(YES/NO): NO
+2017-07-18 20:12:30 -0400: 
+Goodbye laaast01!!
+2017-07-18 20:12:31 -0400: 
+User laaaast02, do you want to perform a calculation?(YES/NO): NO
+2017-07-18 20:12:31 -0400: 
+Goodbye laaaast02!!
+2017-07-18 20:12:32 -0400: 
+User laaaast03, do you want to perform a calculation?(YES/NO): NO
+2017-07-18 20:12:32 -0400: 
+Goodbye laaaast03!!
+2017-07-18 20:12:32 -0400: 
+The following users didn't perform a calculation: ["laaast01", "laaaast02", "laaaast03"]
+--------------------------------------------------------------------------------
