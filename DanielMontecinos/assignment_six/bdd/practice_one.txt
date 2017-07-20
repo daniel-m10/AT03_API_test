@@ -1,0 +1,164 @@
+----------------------------------------------- PRACTICE ONE ---------------------------------------------------
+1.- Research
+
+=> When and why BDD was defined
+	BDD was originally invented by Dan North in the early of to mid-2000s
+	as an easier way to teach and practice TDD.
+	Despite the advantages of use TDD, many teams still have difficulty
+	adopting and using TDD effectively. Developers often have trouble 
+	knowing where to start or what tests they should have write next, they
+	focus on the method or function they're testing, rather than on what 
+	the code should do in business terms.
+	North observed that a few simple practices, such as naming unit tests
+	as full sentences and using the word "should", can help developers
+	write more meaningful tests, which in turn helps them write higher
+	quality code more efficiently.
+	
+=> The most important aspects of BDD
+	* Living Documentation: helps testers, business analysts, and users know what has been built.
+	* Provide a common language based on simple, structured sentences expressed in English
+		that facilitate communication between project team members and business stakeholders.
+	* Increase confidence in code: it's less probably the developers don't break the code.
+	* Strong collaboration: all the involved parties have a strong understanding of the project.
+	* High visibility: by using a language understood by all, everyone gets strong visibility
+		into the project's progression.
+	* Real-time progress report: how much you have done, and how much remains.
+	* Technical documentation: makes the code easier to mantain.
+	* Automatic validation
+	* Working features
+
+=> Why BDD is useful
+	* Reduced waste: focus the development effort on discovering and delivering the features that
+		will provide business value, and avoiding those that't don't.
+	* Reduced costs: the direct consequence of this reduced waste is to reduce costs.
+	* Easier and safer changes: is considerably easier to change and extend the applications thanks
+		to the living documentation generated.
+	* Faster releases: testers can use the automated acceptance tests as a starting point, and spend
+		their time more productively and efficiently on exploratory tests.
+	* Focus on features that deliver business value.
+	* Allows the team work together to specify features.
+	* Embrace uncertainty.
+	* Illustrate features with concrete examples.
+	* Don't write automated tests, write executable specifications.
+
+=> When apply BDD
+	We should apply BDD when it is necessary listen the opinions of all the team, about 
+	how a particular feature or features should behave.
+
+=> 	Which type of teams could implement BDD
+	Agile teams that want to build and deliver more valuable, higher quality, reliable and bug-free software faster.
+
+2.- Structure of a feature
+I found two formats when it comes to write a feature:
+
+	* - In order to <achieve a business goal or deliver business value> (What business value are you trying to provide?)
+	  - As a <stakeholder> (Who is interest in this feature?)
+	  - I want <something> (What will the feature do?)
+	  
+	* - As a <stakeholder> (Who will benefit from this feature; who wants it?)
+	  - I want <something> (What does the feature do?)
+	  - So that <I can achieve some business goal> (What business value will the stakeholder get out of this feature?)
+	  
+Example:
+
+	* - In order to register myself in this web page
+	  - As a new user
+	  - I want to use only lowercase letters for my user name and only numbers for my user password
+	  
+	* - As a new user
+	  - I want to use only lowercase letters for my user name and only numbers for my user password
+	  - So that I can to register myself in this web page
+	  
+3.- Structure of a user story
+It's just break a feature up into smaller pieces. A user story can be described in a little more detail using the same 
+format that's used for the features:
+
+Examples:
+
+	* - Story: Find the group of lowercase letters allowed to use them as a user name
+	  - In order to get a valid user name
+	  - As a new user
+	  - I want to know what lowercase letters are allowed to use
+	  
+	* - Story: Find the maximum length allowed for an user name
+	  - In order to get a valid user name
+	  - As a new user
+	  - I want to know the maximum length that a user name can take
+	  
+	* - Story: Find the minimum length that a password must have to considered as valid
+	  - In order to get a valid password
+	  - As a new user
+	  - I want to know the minimum length that a valid password need to have
+	  
+4.- Structure of a scenario
+The scenario are just examples that allow us to explore features and user stories in more detail. The best way of obtain them
+are asking users and other stakeholders for concrete examples.
+After gather examples, we use them as the basis for the acceptance criteria.
+The structure used is as follows:
+	- Given <a context>
+	- When <something happens>
+	- Then <you expect some outcome>
+
+Examples:
+	
+	For this examples I supposed that a user name has the following constrains: 
+	Username:
+		- only letters from a-z and underscores
+		- maximum length of 12
+		
+	Password:
+		- only numbers from 0-9
+		- minimum length of 4
+		
+	Positive path:
+	Scenario: Write a valid username.
+
+	- Given the register form for a new user is open
+	- When I fill the field username with 'my_username'
+	- And I focus to another field
+	- Then I expect the 'username' field appears surrounded by a 'green' color
+	
+	Negative path:
+	Scenario: Write an invalid username.
+
+	- Given the register form for a new user is open
+	- When I fill the field username with 'My_username_0019'
+	- And I focus to another field
+	- Then I expect the 'user name' field appears surrounded by a 'red' color
+	
+	Positive path:
+	Scenario: Write a valid password.
+
+	- Given the register form for a new user is open
+	- And I entered a 'correct' username
+    - When I fill the field password with '1234'
+	- And I focus to another field
+	- Then I expect the 'password' field appears surrounded by a 'green' color
+	
+	Negative path:
+	Scenario: Write an invalid password.
+	
+	- Given the register form for a new user is open
+	- And I entered a 'correct' username
+    - When I fill the field password with '12345'
+	- And I focus to another field
+	- Then I expect the 'password' field appears surrounded by a 'red' color
+	
+5.- Differences between BDD and BDT
+
+	- BDD begins with the business goal. The goal of BDT is a business readable and domain specific language 
+		that allows to describe a behavior of a system without detailing detailing how that behavior is implemented.
+	- BDD is well-accepted and current methodology in agile projects. BDT is a lesser known companion of BDD and can
+		be used it without BDD.
+	- BDD is a set of best practices for writing great tests. BDT focuses on the behaviour rather than the technical 
+		implementation of the software.
+
+	
+	
+	
+
+
+	
+	
+	
+

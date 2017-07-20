@@ -1,0 +1,21 @@
+Feature: Validate a username for a new user
+  In order to register myself in this web page
+  As a new user
+  I want to use only lowercase letters for my user name
+
+  # Feature written by: Daniel Montecinos
+  Background: This step is a common one for both scenarios. # features/register_new_user.feature:8
+    Given the register form for a new user is open          # features/step_definitions/my_steps.rb:1
+
+  Scenario: Write a valid username                                           # features/register_new_user.feature:11
+    When I fill the field username with "my_username"                        # features/step_definitions/my_steps.rb:5
+    And I focus to another field                                             # features/step_definitions/my_steps.rb:9
+    Then I expect the "username" field appears surrounded by a "green" color # features/step_definitions/my_steps.rb:13
+
+  Scenario: Write an invalid username.                                     # features/register_new_user.feature:16
+    When I fill the field username with "My_username_0019"                 # features/step_definitions/my_steps.rb:5
+    And I focus to another field                                           # features/step_definitions/my_steps.rb:9
+    Then I expect the "username" field appears surrounded by a "red" color # features/step_definitions/my_steps.rb:13
+
+2 scenarios (2 skipped)
+8 steps (8 skipped)

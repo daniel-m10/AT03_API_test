@@ -1,0 +1,4 @@
+----------------------------------------------- DIFFERENCES BETWEEN BOTH EXECUTIONS -----------------------------------------------
+The differences between both executions is that when we execute the command cucumber, all the steps are executed,
+in the other hand, execute cucumber --dry-run makes to skip all the steps, it is useful when we want to know
+if we've applied Gherkin correctly, it is also useful if we want to know if some step is not implemented yet.
